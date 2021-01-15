@@ -1,5 +1,6 @@
 .cover__illustration{
-    width: 100%;
+    width:100%;
+    height: 740px;
     object-fit: cover;
     opacity: 1;
     transition: opacity 1s ease;
@@ -9,4 +10,10 @@
 
  .cover__illustration:hover {
     opacity: 0.3;
+  }
+
+  @media (max-width: 1280px){
+    .cover__illustration{
+    height:auto;
+    }
   }

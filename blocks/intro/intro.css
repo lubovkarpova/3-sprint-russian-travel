@@ -1,6 +1,16 @@
 .intro{
-    display:flex;
-    flex-direction: column;
     justify-content: flex-start;
     margin-top: 92px;
+}
+
+@media (max-width:768px){
+    .intro{
+    margin-top: 88px;
+    }
+}
+
+@media (max-width:768px){
+    .intro{
+    margin-top: 64px;
+    }
 }
