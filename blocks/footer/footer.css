@@ -1,0 +1,25 @@
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    height: 66px;
+    padding-top: 92px;
+  }
+
+  @media (max-width: 768px) {
+    .footer{
+      padding-top: 88px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .footer{
+      padding-top: 64px;
+      display:flex;
+      flex-direction: column;
+      justify-content:space-between;
+      align-items:center;
+      height: 66px;
+    }
+  }

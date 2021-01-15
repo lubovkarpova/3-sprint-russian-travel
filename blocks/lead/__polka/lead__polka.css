@@ -1,0 +1,19 @@
+.lead__polka{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 148px ;
+}
+
+@media (max-width: 1024px) {
+    .lead__polka{
+        margin: 0 48px ;
+}
+}
+
+@media (max-width:768px){
+.lead__polka{
+    margin:0;
+}
+}
+

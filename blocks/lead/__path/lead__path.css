@@ -1,0 +1,28 @@
+.lead__path{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    width: 90%;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .lead__path{
+    width: 90%;
+    height: auto;       
+    }
+}
+
+@media (max-width: 768px) {
+    .lead__path{
+    width: 90%;
+    height: auto;       
+    }
+}
+
+ @media (max-width: 320px) {
+    .lead__path{
+    width: 90%;
+    height: auto; 
+    }
+}

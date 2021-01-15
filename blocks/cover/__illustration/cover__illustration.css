@@ -1,0 +1,12 @@
+.cover__illustration{
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 1s ease;
+    position: absolute;
+    top:0;
+}
+
+ .cover__illustration:hover {
+    opacity: 0.3;
+  }

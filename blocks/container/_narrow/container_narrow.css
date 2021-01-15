@@ -1,0 +1,25 @@
+.container_narrow{
+    margin-left: 148px;
+    margin-right: 148px;
+  }
+
+@media (max-width: 1024px) {
+  .container_narrow{
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+    .container_narrow{
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container_narrow{
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+}
