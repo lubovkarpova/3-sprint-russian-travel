@@ -1,3 +1,10 @@
 .footer__link {
     padding-right: 18px;
     }
+
+@media (max-width:500px){
+    .footer__link{
+     padding:0;
+     margin-bottom: 32px;}
+
+}
