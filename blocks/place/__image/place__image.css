@@ -1,14 +1,11 @@
-.place__image{
-    width: 100%;
-    max-height: auto;
-    padding-top: 48px;
-    object-fit: cover;
+.place__image {
+  width: 100%;
+  max-height: auto;
+  object-fit: cover;
 }
 
- @media (max-width: 320px) {
-    .place__image{
-        padding-top: 32px;
-        max-width: 100%;
-        max-height: auto;
-    }
+@media (max-width: 375px) {
+  .place__image {
+    max-width: 100%;
+  }
 }

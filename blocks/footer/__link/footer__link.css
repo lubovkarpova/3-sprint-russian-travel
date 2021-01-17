@@ -1,9 +1,18 @@
 .footer__link {
-padding:0;  }
+  padding: 0;
+  text-decoration-line: none;
+  color: #ffffff;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
 
-@media (max-width:500px){
-    .footer__link{
-     padding:0;
-     margin-bottom: 32px;}
+.footer__link:hover {
+  opacity: 0.8;
+}
 
+
+@media (max-width: 500px) {
+  .footer__link {
+    margin-bottom: 32px;
+  }
 }

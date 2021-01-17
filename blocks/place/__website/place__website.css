@@ -1,9 +1,9 @@
-.place__website{
-    justify-content: flex-end;
-
+.place__website {
+  justify-content: flex-end;
 }
- @media (max-width: 320px) {
-    .place__website{
-        display: none;
-    }
+
+@media (max-width: 375px) {
+  .place__website {
+    display: none;
+  }
 }

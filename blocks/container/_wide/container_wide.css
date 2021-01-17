@@ -1,3 +1,21 @@
-.container_wide{
-    margin: 0 48px;
+.container_wide {
+  padding: 0 48px;
+}
+
+@media (max-width: 1024px) {
+  .container_wide {
+    padding: 0 48px;
   }
+}
+
+@media (max-width: 768px) {
+  .container_wide {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container_wide {
+    padding: 0 16px;
+  }
+}
