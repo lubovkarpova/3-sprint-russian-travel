@@ -2,11 +2,6 @@
   margin-bottom: 92px;
 }
 
-@media (max-width: 1024px) {
-  .cover {
-  }
-}
-
 @media (max-width: 768px) {
   .cover {
     margin-bottom: 88px;
