@@ -1,4 +1,6 @@
 .cover {
+  max-width: 1184px;
+  margin: 0 auto;
   margin-bottom: 92px;
 }
 
@@ -8,7 +10,7 @@
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 375px) {
   .cover {
     margin-bottom: 64px;
   }

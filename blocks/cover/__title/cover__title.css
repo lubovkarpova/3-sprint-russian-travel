@@ -3,7 +3,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
-  width: 560px;
+  max-width: 560px;
   text-align: center;
   margin: 0 auto;
   position: relative;
@@ -14,13 +14,13 @@
   .cover__title {
     font-size: 50px;
     line-height: 109%;
-    width: 90%;
+    min-width: 90%;
   }
 }
 
 @media (max-width: 320px) {
   .cover__title {
     font-size: 32px;
-    width: 288px;
+    max-width: 288px;
   }
 }

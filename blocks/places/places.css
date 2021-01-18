@@ -1,5 +1,25 @@
 .places {
-  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+  padding-top: 12px;
   padding-bottom: 92px;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    padding: 0 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  .places {
+    padding: 0;
+  }
 }

@@ -1,9 +1,11 @@
 .place__website {
+  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
+  align-self: end;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .place__website {
-    display: none;
+    padding: 0 16px;
   }
-}

@@ -9,13 +9,17 @@
   line-height: 112%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .footer__list {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 550px) {
   .footer__list {
     flex-direction: column;
-    justify-content: space-around;
-    font-size: 24px;
-    line-height: 100%;
-    margin-bottom: 48px;
-    gap: 32px;
+    align-items: flex-start;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

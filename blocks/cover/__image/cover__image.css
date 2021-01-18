@@ -1,6 +1,4 @@
 .cover__image {
-  justify-content: center;
-  align-items: center;
   min-height: 720px;
   width: 100%;
   position: relative;
@@ -15,7 +13,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #2A2C2F;
   opacity: 0.3;
   transition: opacity 1s ease;
 }
@@ -24,15 +22,15 @@
   opacity: 0.8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .cover__image {
-    min-height: 480px;
+    min-height: 640px;
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 768px) {
   .cover__image {
-    min-height: 350px;
+    min-height: 480px;
   }
 }
 

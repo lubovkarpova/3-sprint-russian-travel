@@ -1,16 +1,27 @@
 .intro {
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   margin-top: 92px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .intro {
-    margin-top: 88px;
+    padding-top: 88px;
+    padding-left: 48px;
   }
 }
 
 @media (max-width: 768px) {
   .intro {
+    padding-top: 88px;
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro {
     margin-top: 64px;
+    padding-left: 16px;
   }
 }

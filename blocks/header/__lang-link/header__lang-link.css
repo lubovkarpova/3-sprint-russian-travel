@@ -1,9 +1,17 @@
 .header__lang-link {
-  justify-content: space-between;
-  font-size: 24px;
-  line-height: 117%;
   font-style: normal;
   font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 117%;
+  opacity: 1;
+  transition: opacity 1s ease;
+  text-decoration: none;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
 }
 
 @media (max-width: 375px) {

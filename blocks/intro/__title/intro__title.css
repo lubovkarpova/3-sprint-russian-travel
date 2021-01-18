@@ -5,20 +5,13 @@
   line-height: 107%;
   margin: 0;
   padding: 0;
-  width: 690px;
+  max-width: 690px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .intro__title {
-    width: 100%;
-  }
-}
-
-@media (max-width: 320px) {
-  .intro__title {
-    font-style: normal;
-    font-weight: 900;
     font-size: 32px;
     line-height: 109%;
+    max-width: 288px;
   }
 }

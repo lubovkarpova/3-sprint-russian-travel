@@ -3,41 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Git</title>
+    <title>Russian travel</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
 
   <body class="page">
     <header class="header">
       <img class="header__logo" src="./images/__logo.svg" alt="Логотип" />
-      <div class="flex-row header__lang-link">
-        <p class="header__lang-link header__lang-link_ru">RU</p>
-        <p class="header__lang-link header__lang-link_eng">ENG</p>
+      <div class="header__row header__lang-link">
+        <a
+          class="header__lang-link header__lang-link_active"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          >RU</a
+        >
+        <a
+          class="header__lang-link header__lang-link"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          >ENG</a
+        >
       </div>
     </header>
 
-    <main class="container">
-      <section class="flex-column lead">
+    <main>
+      <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <div class="lead__polka">
-          <img
-            class="lead__image"
-            src="./images/lead-polka.jpg"
-            alt="Фотография нижней полки"
-          />
-          <img
-            class="lead__path"
-            src="./images/Group_4.svg"
-            alt="Карта пути по России"
-          />
-          <p class="lead__caption">ваша полка — верхняя</p>
-        </div>
+        <img
+          class="lead__image"
+          src="./images/lead__image.svg"
+          alt="Карта России"
+        />
+        <p class="lead__caption">ваша полка — верхняя</p>
       </section>
 
-      <section class="container container_narrow flex-column intro">
+      <section class="container intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
@@ -53,27 +58,25 @@
         <ul class="list intro__list">
           <li>
             Часовых поясов
-            <span class="intro__list intro__list_digits">11</span>
+            <span class="intro__list intro__digits">11</span>
           </li>
           <li>
             Объектов природного наследия ЮНЕСКО
-            <span class="intro__list intro__list_digits">12</span>
+            <span class="intro__list intro__digits">12</span>
           </li>
           <li>
             Объектов культурного наследия ЮНЕСКО
-            <span class="intro__list intro__list_digits">16</span>
+            <span class="intro__list intro__digits">16</span>
           </li>
           <li>
             Природных заповедников
-            <span class="intro__list intro__list_digits">105</span>
+            <span class="intro__list intro__digits">105</span>
           </li>
-          <li>
-            Аэропортов <span class="intro__list intro__list_digits">241</span>
-          </li>
+          <li>Аэропортов <span class="intro__list intro__digits">241</span></li>
         </ul>
       </section>
 
-      <section class="container container_wide photo-grid">
+      <section class="photo-grid">
         <img
           class="photo-grid__item"
           src="./images/photo-grid-train.jpg"
@@ -136,11 +139,11 @@
         />
       </section>
 
-      <section class="container container_narrow flex-column places">
+      <section class="container places">
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
 
-          <div class="flex-column place__website">
+          <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a
               class="place__link"
@@ -164,7 +167,7 @@
             />
           </a>
 
-          <div class="flex-column place__paragraphs">
+          <div class="place__paragraphs">
             <p class="place__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
               горизонта — спокойного Куршского залива с одной стороны и
@@ -184,7 +187,7 @@
 
         <div class="place">
           <h2 class="place__title">Кольский</h2>
-          <div class="flex-column place__website">
+          <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a
               class="place__link"
@@ -207,7 +210,7 @@
             />
           </a>
 
-          <div class="flex-column place__paragraphs">
+          <div class="place__paragraphs">
             <p class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская
               тундра, от которой на юг — тайга, а на север — Ледовитый океан,
@@ -228,7 +231,7 @@
         <div class="place">
           <h2 class="place__title">Алтай</h2>
 
-          <div class="flex-column place__website">
+          <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a
               class="place__link"
@@ -251,7 +254,7 @@
             />
           </a>
 
-          <div class="flex-column place__paragraphs">
+          <div class="place__paragraphs">
             <p class="place__paragraph">
               Алтай — одно из красивейших мест в России. В первую очередь из-за
               гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
@@ -271,7 +274,7 @@
         <div class="place">
           <h2 class="place__title">Зимний Байкал</h2>
 
-          <div class="flex-column place__website">
+          <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a
               class="place__link"
@@ -295,7 +298,7 @@
             />
           </a>
 
-          <div class="flex-column place__paragraphs">
+          <div class="place__paragraphs">
             <p class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также
               знают, что это самый большой источник пресной воды и одно из
@@ -314,7 +317,7 @@
         <div class="place">
           <h2 class="place__title">Карелия</h2>
 
-          <div class="flex-column place__website">
+          <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a
               class="place__link"
@@ -337,7 +340,7 @@
             />
           </a>
 
-          <div class="flex-column place__paragraphs">
+          <div class="place__paragraphs">
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
               сибирская лиственница не растёт западнее Водлозера. Зато здесь она
@@ -360,7 +363,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div class="flex-column cover__image">
+          <div class="cover__column cover__image">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
@@ -369,57 +372,59 @@
           </div>
         </a>
       </section>
-
-      <footer class="footer">
-        <ul class="footer__list list">
-          <li>
-            <a
-              class="footer__link"
-              href="https://yandex.ru/maps"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Карты</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer__link"
-              href="https://yandex.ru/pogoda"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Погода</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer__link"
-              href="https://rasp.yandex.ru"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Расписание</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer__link"
-              href="https://calendar.yandex.ru"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Календарь</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer__link"
-              href="https://travel.yandex.ru"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Путешествия</a
-            >
-          </li>
-        </ul>
-        <span class="footer__copyright"> &copy;2021.Люба Карпова</span>
-      </footer>
     </main>
+    
+      <footer class="footer">
+        <nav>
+          <ul class="footer__list list">
+            <li>
+              <a
+                class="footer__link"
+                href="https://yandex.ru/maps"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Карты</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="https://yandex.ru/pogoda"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Погода</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="https://rasp.yandex.ru"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Расписание</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="https://calendar.yandex.ru"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Календарь</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="https://travel.yandex.ru"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Путешествия</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <p class="footer__copyright"> &copy;2021.Люба Карпова</p>
+      </footer>
   </body>
 </html>

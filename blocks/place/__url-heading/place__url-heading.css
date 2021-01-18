@@ -6,9 +6,3 @@
   letter-spacing: 0.2em;
   color: #aaaaaa;
 }
-
-@media (max-width: 375px) {
-  .place__url-heading {
-    display: none;
-  }
-}

@@ -5,6 +5,7 @@
   line-height: 140%;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  align-self: start;
 }
 
 @media (max-width: 768px) {
@@ -18,4 +19,3 @@
     padding-left: 16px;
   }
 }
-  
