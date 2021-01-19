@@ -4,8 +4,3 @@
   object-fit: cover;
 }
 
-@media (max-width: 375px) {
-  .place__image {
-    max-width: 100%;
-  }
-}

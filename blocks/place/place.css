@@ -18,7 +18,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 560px) {
   .place {
     padding-top: 50px;
     grid-template-columns: repeat(1, 1fr);

@@ -7,11 +7,18 @@
   opacity: 1;
   transition: opacity 1s ease;
   text-decoration: none;
+  padding-right: 18px;
+}
+
+.header__lang-link:last-of-type{
+  padding-right: 0px;
 }
 
 .header__lang-link:hover {
   opacity: 0.8;
 }
+
+
 
 
 @media (max-width: 375px) {
